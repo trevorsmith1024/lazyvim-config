@@ -19,3 +19,5 @@ vim.opt.fillchars = {
 -- #AE76A6 #CCD6EB #1B9AAA #B5FED9 #98CBB4 #0CBABA #01BAEF
 -- #5386E4 #5998C5 #0FA3B1 #6E8898 #7BA098 #9FB1BC
 vim.api.nvim_set_hl(0, "WinSeparator", { fg = "#6E8898", bold = true })
+
+vim.o.foldmethod = "manual"
